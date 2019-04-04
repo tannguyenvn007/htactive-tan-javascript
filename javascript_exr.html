@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="search-form">
+            <h1>Search Product by Id</h1>
+            <input type="text" id="inpId">
+            <button onclick="search()">Search Product</button>
+        </div>
+        <div class="product-info">
+            <h1>Examined Product</h1>
+            <div>
+                <p >Product Id: <span id="proId"></span></p>
+                <p >Price: <span id="proPrice"></span></p>
+                <p >Type: <span id="proType"></span></p>
+            </div>
+        </div>
+        <div class="search-result">
+            <table class="table" id="table">
+                <thead>
+                  <tr>
+                    <th>Product Id</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th>Examine</th>
+                  </tr>
+                </thead>
+                <tbody id="searchList">
+                    
+                </tbody>
+              </table>
+        </div>
+        <div class="product-list" >
+            <table class="table" id="table">
+                <thead>
+                  <tr>
+                    <th>Product Id</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th>Examine</th>
+                  </tr>
+                </thead>
+                <tbody id="productList">
+                  
+                </tbody>
+              </table>
+        </div>
+        <div id="div1"> 
+        </div>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+.table,th,td{
+    border:1px solid blue;
+}
+.search-result{
+    margin-bottom: 15px;
+}
